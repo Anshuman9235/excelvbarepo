@@ -42,7 +42,7 @@ Sub send_email()
     .Attachments.Add sImgageName, 1, 0
     .HTMLBody = "<html><p>Hi, .</p>" & " <a href='https://github.com/Mukesh-Mishra/excelvbarepo'><img src='cid:img.jpg' height=520 width=750>" & "</html>"
     
-    .Attachments.Add (ThisWorkbook.Path & "\Press Release ROHIT SHARMA JOINS TEAM OAKLEY - FINAL.pdf")
+    .Attachments.Add (ThisWorkbook.Path & "\FINAL.pdf")
     
     'This is to check cell value and attached excel range
     ''If mySheet.Range("E" & i).Value <> "" Then
